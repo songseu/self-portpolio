@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+#slideShow{
+  width: 1300px;
+  height: 460px;
+  position: relative;
+  margin: 50px auto;
+  overflow: hidden;  
+ 
+
+}
+
+
+.slides{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2500px; 
+  transition: left 0.5s ease-out; 
+ 
+}
+
+
+.slides li:first-child{
+}
+
+
+.slides li:not(:last-child){
+  float: left;
+  margin-right: 100px;
+}
+
+.slides li{
+  float: left;
+}
+
+.controller span{
+  position:absolute;
+  background-color: transparent;
+  color:  white;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+
+.controller span:hover{
+  background-color: rgba(128, 128, 128, 0.11);
+}
+
+.prev{
+  left: 10px;
+}
+
+
+.prev:hover{
+  transform: translateX(-10px);
+}
+
+.next{
+  right: 10px;
+}
+
+
+.next:hover{
+  transform: translateX(10px);
+}
+.iamwho {
+  width: 100%;
+  height: 460px;
+  text-align: center;
+
+}
+.circle1{
+  width: 360px;
+  
+  display: inline-block;
+  position: relative;
+  
+  
+  line-height: 1.2;
+}
+.circle2{
+  width: 360px;
+  
+  
+  display: inline-block;
+  position: relative;
+  
+  line-height: 1.2;
+}
+.circle3{
+  width: 360px;
+  
+  
+  display: inline-block;
+  position: relative;
+  
+  line-height: 1.2;
+}
+.circle4{
+  
+  width: 360px;
+  
+  display: inline-block;
+  position: relative;
+  
+  line-height: 1.2;
+}
+#circle-a {
+  position: relative;
+  width: 100%;
+  color: white;
+  
+  text-align: center;
+}
+#circle-a p {
+  position: relative;
+  left: 100px;
+  top: -80px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.selfshot {
+  background-image: url(/images/Profile-img.jpg);
+  position: relative;
+  margin: 50px auto;
+  left: -400px;
+  width: 780px;
+  height: 400px;
+}
+.selfshotinfo {
+  
+  left: 390px;
+  top: -450px;
+  position: relative;
+  margin: 50px auto;
+  background-image: url(/images/Profile.png);
+  width: 780px;
+  height: 400px;
+}
+.selfshotinfo p {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.wtido1 {
+  position: relative;
+  top: -300px;
+  background-color: #ccc;
+  width: 340px;
+  margin: auto;
+  height: 250px;
+  left: -600px;
+  
+}
+.wtido1 .wtidoinfo {
+  position: relative;
+  top: -25px;
+  background-color: #bbb;
+  width: 340px;
+  height: 150px;
+}
+.wtido1 .wtidoinfo p {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.wtido1 .wtidoinfo p1 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.wtido2 {
+  margin: auto;
+  position: relative;
+  top: -550px;
+  background-color: #ccc;
+  width: 340px;
+  height: 250px;
+  left: 0px;
+}
+.wtido2 .wtidoinfo {
+  position: relative;
+  top: 229px;
+  background-color: #bbb;
+  width: 340px;
+  height: 150px;
+}
+.wtido2 .wtidoinfo p {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.wtido2 .wtidoinfo p1 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.wtido3 {
+  margin: auto;
+  position: relative;
+  top: -800px;
+  background-color: #ccc;
+  width: 340px;
+  height: 250px;
+  left: 580px;
+}
+.wtido3 .wtidoinfo {
+  position: relative;
+  top: 229px;
+  background-color: #bbb;
+  width: 340px;
+  height: 150px;
+}
+.wtido3 .wtidoinfo p {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.wtido3 .wtidoinfo p1 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+#wtido-a {
+  width: 100%;
+}
+.contact h1 {
+  position: relative;
+  margin-top: -500px;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-image: ;
+  font-size: 40px;
+}
+body{
+  background-image: url(../images/background.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
